@@ -42,3 +42,16 @@ git commit -m "commit_message_here
 
 ## pusing to git server
 git push origin branch_name
+
+# Branching and merging
+## View all branches
+git branch -a
+
+## Create new branch
+git checkout -b branch_name
+
+## Switch to another branch
+git checkout branch_name
+
+## Merge another branch from main
+git merge branch_name
