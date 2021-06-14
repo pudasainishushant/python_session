@@ -16,3 +16,20 @@ pip install package_ko_name
 
 ### Uninstall packages in virtual environment
 pip uninstall package_ko_name
+
+
+# GIT commands
+## cloning a git repo
+git clone url_of_repo
+
+## pulling latest changes from a branch
+git pull origin branch_name
+
+## adding files to staging server
+- for all file 
+    git add .
+- for specific file
+    git add filename
+
+## commiting files to staging server
+git commit -m "commit_message_here"
