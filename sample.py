@@ -3,6 +3,5 @@ print("Imported pandas    sa")
 print("git change gareko")
 print("gitko arko kaam gareko")
 
-print('suzan Budhathoki')
 
-print('Hello world')
+print('this is Awesome....')
