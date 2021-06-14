@@ -19,6 +19,11 @@ pip uninstall package_ko_name
 
 
 # GIT commands
+
+## Setting git global username and email
+git config --global user.name "Your Name"
+git config --global user.email "youremail@yourdomain.com"
+
 ## cloning a git repo
 git clone url_of_repo
 
