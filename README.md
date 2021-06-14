@@ -32,4 +32,8 @@ git pull origin branch_name
     git add filename
 
 ## commiting files to staging server
-git commit -m "commit_message_here"
+git commit -m "commit_message_here
+
+
+## pusing to git server
+git push origin branch_name
