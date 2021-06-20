@@ -55,3 +55,17 @@ git checkout branch_name
 
 ## Merge another branch from main
 git merge branch_name
+
+
+## Basic Python
+
+python file extension -- .py
+jupyter notebook file extension -- .ipynb
+
+
+Jupyter notebook shortcuts
+- Insert new cell - B
+- Insert new cell above - A
+- Convert cell to markdown - M
+- Convert cell to code - Y
+- Run cell - Shift+ Enter
