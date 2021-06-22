@@ -69,3 +69,23 @@ Jupyter notebook shortcuts
 - Convert cell to markdown - M
 - Convert cell to code - Y
 - Run cell - Shift+ Enter
+
+
+# Questions to solve
+
+Q1. Create a function that takes a number and return the number of digits in the number
+
+example ---> number = 10 number of digits = 2
+
+Q2. Create a program that takes temperature asks user to convert in which scale (celsius, kelvin, farenhait) and print the converted value.
+
+Q3 . Create a function that converts a date formatted as mm//dd/yyyy to yyyyddmm.
+example ----> input 07/09/2020 to 20200907
+
+Q 4. Ask user to enter three numbers 
+x = 1
+y = 2
+z = 1
+ create a list like this:
+ [[0,0,0],[0,1,0],[0,0,1],[1,0,0],[1,1,1],[0,2,0],[1,2,0],[1,2,1],[0,2,1]]
+ 
