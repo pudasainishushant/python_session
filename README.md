@@ -89,3 +89,20 @@ z = 1
  create a list like this:
  [[0,0,0],[0,1,0],[0,0,1],[1,0,0],[1,1,1],[0,2,0],[1,2,0],[1,2,1],[0,2,1]]
  
+
+## Exerices
+- Write a Python program to convert a given list of strings into list of lists using map function. 
+Input
+['Red', 'Green', 'Black', 'Orange']
+
+Output:
+[['R', 'e', 'd'], ['G', 'r', 'e', 'e', 'n'], ['B', 'l', 'a', 'c', 'k'], ['O', 'r', 'a', 'n', 'g', 'e']]
+
+- Write a python program to filter prime numbers only from a given list of numbers
+
+- Create a list from the elements of a range from 1200 to 2000 with steps of 130, using list comprehension.
+
+- Use list comprehension to contruct a new list but add 6 to each item.
+
+input = [44,54,64,74,104]
+output = [446,546,646,746,1046]
