@@ -106,3 +106,10 @@ Output:
 
 input = [44,54,64,74,104]
 output = [446,546,646,746,1046]
+
+
+- Inbuilt python modules
+ example: sys, os, random, math
+
+ - Third party libraries
+ example: geopy, opencv, nltk, flask, tensorflow,facebook_scrapper

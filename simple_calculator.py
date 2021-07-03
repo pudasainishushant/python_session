@@ -1,21 +1,3 @@
-"""
-
-def funtion_name(parameter1,parameter2,...parameter_n):
-    # doc string
-
-    # statement1
-    # statement2
-    ...
-    # statement n
-
-    return return_vale1, return_vale_2..... return_value_n
-
-
-value_1 = function_name(parameter_1,....parameter_2)
-
-"""
-
-
 
 def add_num(num1,num2):
     """
