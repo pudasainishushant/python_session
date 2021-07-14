@@ -113,3 +113,32 @@ output = [446,546,646,746,1046]
 
  - Third party libraries
  example: geopy, opencv, nltk, flask, tensorflow,facebook_scrapper
+
+
+ - Flask
+ - Django
+ - FastAPI
+
+
+ ## Project 1:
+ Develop a wikipedia search engine web application using Python, Flask, HTML, CSS, JS.
+ Step 1:
+ - Develop a python module in OOP style which can get search results from wikipedia given any search queries.
+-  wikipedia.py module retieve_search_results() get_wiki_pages()
+- Give wiki search results
+- Give users summary about something from wikipedia
+Step 2:
+- HTML, CSS, JS use garera templates haru ready garne
+Step 3:
+_ Flask use garera api.py banaune 
+
+Functionalities 
+- User le wiki search garna paunu paryo
+- User le deko query ko summary generate garera dekhaidinu paryo
+- User le language select garna paunu paryo
+
+Learning objectives
+- use of python modules (third party library)
+- OOP
+- Flask
+- Simple web page design
