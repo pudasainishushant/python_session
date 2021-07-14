@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 
+    sans-serif;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    align-items:center;
+    height: 100vh;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+.detials_container{
+    width: 800px;
+    border: 1px solid rebeccapurple;
+    justify-content: center;
+    height: 500px;
+    width: 600px;
+}
+
+
+.img_container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;    
+    padding: 10px;
+}
+img{
+    margin: 2px;
+     border-radius: 5px;
+}
+
+.img1{
+    height: 200px;
+    width: 200px;
+    object-fit: 
+    contain;
+}
+
+.img2{
+    height: 150px;
+    width: 150px;object-fit: 
+    contain;
+}
+
+.img3{
+   height: 150px;
+    width: 150px;
+}
+
+h1{
+    font-size: 30px;
+    padding: 5px 10px ;
+}
+
+h3 span{
+    font-size: 19px;
+    margin-bottom: 10px;
+
+}
+h3{
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.details_contian{
+    padding: 10px;
+}
+
+p{
+    font-size: 
+    16px;
+    padding-bottom: 10px;
+font-weight: 300;
+}
+
+li a{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(36, 35, 35);
+}
+
+
+.search_menu{
+    position: relative;
+top:-10%;
+}
+.search_menu{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 28px;
+
+    border: 1px solid rgb(197, 195, 195);
+   width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+    border-radius: 999px;
+    margin:0 auto ;
+}
+.search_menu:hover{
+box-shadow: 3px 4px 22px -17px rgba(0,0,0,0.64);
+-webkit-box-shadow: 3px 4px 22px -17px rgba(0,0,0,0.64);
+-moz-box-shadow: 3px 4px 22px -17px rgba(0,0,0,0.64);
+}
+.search_menu input{
+    flex: 1;
+    height: 34px;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    max-width: 500px;
+     margin-left: auto;
+    margin-right: auto;
+
+    font-size: 20px;
+    padding: 25px 10px;
+}
+
+.search_menu .fa-search {
+    font-size:  20px;
+    color: rgb(201, 193, 193);
+}
+
+.title{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    height: 100px;
+    width: 100px;
+}
+
+.title a img{
+    width: 100%;
+}
+.more{
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.more:hover{
+    text-decoration: underline;
+}

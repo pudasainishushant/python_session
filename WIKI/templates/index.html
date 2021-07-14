@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="header-container">
+      <div class="title_container">
+        <a href="#"
+          ><h1>Thoki <span>Inc</span>.</h1></a
+        >
+      </div>
+      <ul>
+        <li><a href="#">Our_Mail</a></li>
+        <li><a href="#">Images</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">T</a></li>
+      </ul>
+    </nav>
+
+    <section class="header">
+      <img src="{{url_for('static', filename='logo.png')}}" alt="" />
+
+      <form method="POST" action="#">
+        <div class="search_menu">
+          <i class="fas fa-search"></i>
+          <input id="search" name="search" type="text" />
+          <i class="fas fa-microphone"></i>
+        </div>
+        <div class="button_container">
+          <button class="ripple" id="button" type="submit">Thoki Search</button>
+          <button class="ripple">I'm Geting my Results</button>
+        </div>
+      </form>
+      <h2>My Wiki offerd in : <a href="#">नेपाली</a></h2>
+    </section>
+
+    <section class="footer_container">
+      <div class="c_name">
+        <h1>Nepal</h1>
+      </div>
+      <div class="footer">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">How Search Works</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Setting</a></li>
+        </ul>
+      </div>
+    </section>
+    <script>
+      //javascript
+      let inputElt = document.getElementById("input");
+      let btn = document.getElementById("button")
+      
+      console.log(inputElt.value);
+     btn.addEventListener('click',(e)=>{
+       e.preventDefault()
+       if (inputElt.value != ''){
+         btn.disabled = false
+         
+       }
+       else{
+         btn.disabled = true
+       }
+     })
+    </script>
+  </body>
+</html>
